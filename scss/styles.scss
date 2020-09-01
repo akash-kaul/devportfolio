@@ -384,7 +384,7 @@ footer {
 
     h2 {
         // color: lighten($base-color, 25%);
-        color: #a6a6a6;
+        color: #d9d9d9;
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -413,7 +413,8 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    // background: rgba($base-color-hover, 0.8);
+    background: $base-color;
     z-index: 1;
 }
 
